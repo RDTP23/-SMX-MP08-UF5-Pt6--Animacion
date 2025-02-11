@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animación de Bart</title>
+    <style>
+        body {
+            background-color: #87CEEB;
+            background-image: url('Animacion/fondo.jpeg'); 
+            background-size: cover; 
+            background-position: center; 
+        }
+
+        .image-sequence {
+            width: 100vw;
+            height: 100vh;
+            background-image: url('Animacion/img1.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            animation-name: sequence;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-direction: normal;
+        }
+
+        @keyframes sequence {
+            from { background-image: url('Animacion/img1.png'); }
+            3.33% { background-image: url('Animacion/img2.png'); }
+            6.66% { background-image: url('Animacion/img3-removebg-preview.png'); }
+            10% { background-image: url('Animacion/img4-removebg-preview.png'); }
+            13.33% { background-image: url('Animacion/img5-removebg-preview.png'); }
+            16.66% { background-image: url('Animacion/img6-removebg-preview.png'); }
+            20% { background-image: url('Animacion/img7-removebg-preview.png'); }
+            23.33% { background-image: url('Animacion/img8-removebg-preview.png'); }
+            26.66% { background-image: url('Animacion/img9-removebg-preview.png'); }
+            30% { background-image: url('Animacion/img10-removebg-preview.png'); }
+            33.33% { background-image: url('Animacion/img11-removebg-preview.png'); }
+            36.66% { background-image: url('Animacion/img12-removebg-preview.png'); }
+            40% { background-image: url('Animacion/img13-removebg-preview.png'); }
+            43.33% { background-image: url('Animacion/img14-removebg-preview.png'); }
+            46.66% { background-image: url('Animacion/img15-removebg-preview.png'); }
+            50% { background-image: url('Animacion/img16-removebg-preview.png'); }
+            53.33% { background-image: url('Animacion/img17-removebg-preview.png'); }
+            56.66% { background-image: url('Animacion/img18-removebg-preview.png'); }
+            60% { background-image: url('Animacion/img19-removebg-preview.png'); }
+            63.33% { background-image: url('Animacion/img20-removebg-preview.png'); }
+            66.66% { background-image: url('Animacion/img21-removebg-preview.png'); }
+            70% { background-image: url('Animacion/img22-removebg-preview.png'); }
+            73.33% { background-image: url('Animacion/img23-removebg-preview.png'); }
+            76.66% { background-image: url('Animacion/img24-removebg-preview.png'); }
+            80% { background-image: url('Animacion/img25-removebg-preview.png'); }
+            83.33% { background-image: url('Animacion/img26-removebg-preview.png'); }
+            86.66% { background-image: url('Animacion/img27-removebg-preview.png'); }
+            90% { background-image: url('Animacion/img28-removebg-preview.png'); }
+            93.33% { background-image: url('Animacion/img29-removebg-preview.png'); }
+            to { background-image: url('Animacion/img30-removebg-preview.png'); }
+        }
+    </style>
+</head>
+<body>
+    <div class="image-sequence"></div>
+</body>
+</html>
